@@ -1,0 +1,13 @@
+importFrom(grDevices)  	 
+importFrom(methods, setMethod)		 
+importFrom(utils, packageDescription)		 
+importFrom(tools, startDynamicHelp)  	 
+
+importFrom("RJSONIO", "toJSON")
+export(gvisMotionChart)		 
+export(plot.gvis)		 
+export(renderGvis)
+			 
+#Methods		 
+S3method(plot, gvis)		 
+S3method(print, gvis)
